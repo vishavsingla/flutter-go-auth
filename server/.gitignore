@@ -1,0 +1,25 @@
+# Compiled binary files
+*.exe
+*.out
+*.dll
+
+# Output directories
+/bin/
+/pkg/
+/dist/
+
+# Dependency directories
+/vendor/
+/go.sum
+
+# IDE or editor files
+.vscode/
+.idea/
+*.iml
+
+# Environment variables file (if used)
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db

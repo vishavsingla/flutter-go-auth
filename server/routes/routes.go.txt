@@ -1,0 +1,23 @@
+// package routes
+
+// import (
+// 	"net/http"
+
+// 	"github.com/rs/cors"
+// )
+
+// func SetupRoutes() http.Handler {
+// 	mux := http.NewServeMux()
+
+// 	mux.HandleFunc("/", handleRoot)
+// 	mux.HandleFunc("/auth/user/signup", handleSignUp)
+
+// 	corsHandler := cors.New(cors.Options{
+// 		AllowedOrigins:   []string{"http://localhost:3000"},
+// 		AllowedMethods:   []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
+// 		AllowedHeaders:   []string{"Accept", "Authorization", "Content-Type"},
+// 		AllowCredentials: true,
+// 	})
+
+// 	return corsHandler.Handler(mux)
+// }
